@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.react-calendar {
+  width: 100%;
+  background-color: white !important;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.125em;
+  height: 400px;
+}
+.rbc-calendar {
+  height: inherit !important;
+  width: inherit !important;
+}
+.rbc-time-content {
+  background-color: #f5f9fa !important;
+  border:none !important;
+
+}
+.rbc-toolbar {
+  background-color: #ffffff !important;
+}
+
+.rbc-event{
+  padding:5px 5px 2px 2px !important;
+  margin: 10px 0px;
+}
+.rbc-event:nth-child(1) {
+  background-color: #ECF8FD !important; /* Pale Light Blue */
+  color: #6B7280 !important;
+  border: none !important;
+}
+.rbc-event:nth-child(2) {
+  background-color: #EDEDFD !important; /* Pale Lavender */
+  color: #6B7280 !important;
+  border: none !important;
+}
+.rbc-event:nth-child(3) {
+  background-color: #FCF7DF !important; /* Pale Yellow */
+  color: #6B7280 !important;
+  border: none !important;
+}
+.rbc-event:nth-child(4) {
+  background-color: #FBEAF0 !important; /* Pale Pink */
+  color: #6B7280 !important;
+  border: none !important;
+}
+.rbc-event:nth-child(5) {
+  background-color: #ECF8FD !important; /* Reusing Pale Light Blue */
+  color: #6B7280 !important;
+  border: none !important;
+}
+.rbc-event:nth-child(6) {
+  background-color: #EAF7EA !important; /* Pale Green */
+  color: #6B7280 !important;
+  border: none !important;
+}
+.rbc-event:nth-child(7) {
+  background-color: #FBF1E8 !important; /* Very Pale Peach */
+  color: #6B7280 !important;
+  border: none !important;
+}
+.rbc-event:nth-child(8) {
+  background-color: #FDEDED !important; /* Pale Soft Coral */
+  color: #6B7280 !important;
+  border: none !important;
+}
+.rbc-event:nth-child(9) {
+  background-color: #FDFBE8 !important; /* Pale Cream */
+  color: #6B7280 !important;
+  border: none !important;
+}
+.rbc-event:nth-child(10) {
+  background-color: #EDF7FB !important; /* Pale Sky Blue */
+  color: #6B7280 !important;
+  border: none !important;
+}
+
+.rbc-event-label {
+  font-weight: 400 !important;
+
+}
+.rbc-toolbar {
+  margin-bottom:0;
+}
+.rbc-event-content{
+  color: #000000 !important;
+
+}
+.rbc-toolbar-label{
+  font-weight: 500 !important;
+  
+}
+.rbc-time-gutter .rbc-time-column {
+ padding: 0px 20px !important;
+}
+
+.rbc-btn-group:nth-child(1){
+  display:none
+}
+.rbc-time-header {
+  display:none;
+}
+.rbc-time-column:nth-child(1) {
+  width: 15% !important;
+}
+
+.rbc-events-container {
+  width: 99% !important;
+  padding: 15px !important;
+  height: auto;
+  margin-bottom: 30px !important;
+}
