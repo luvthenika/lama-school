@@ -8,7 +8,7 @@ import React from 'react'
 
 const AdminPage = () => {
   return (
-    <div className='flex flex-col md:flex-row md:justify-between gap-10 w-3/4'>
+    <div className='flex flex-col md:flex-row md:justify-between gap-10 h-auto w-full'>
       <div className='flex flex-col gap-4 items-center lg:items-start lg:ml-5 lg:mr-5 h-auto w-full'>
         <div className='flex flex-col gap-4 lg:flex-row h-auto w-5/6 lg:w-full my-6'>
           <div className='flex flex-col gap-4 sm:flex-row w-full h-auto'>
