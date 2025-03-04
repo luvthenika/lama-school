@@ -1,5 +1,9 @@
-import { inter } from '@/app/ui/fonts';
+'use client'
 import '@/app/ui/globals.css'
+import { theme } from './theme';
+import { ThemeProvider } from '@emotion/react';
+import Head from 'next/head';
+
 
 export default function RootLayout({
   children,
@@ -7,8 +11,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}</body>
-    </html>
+    <ThemeProvider theme={theme}>
+        <html>
+          <body>
+          <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
+          {children}
+          </body>
+        </html>
+  </ThemeProvider>
+
   );
 }

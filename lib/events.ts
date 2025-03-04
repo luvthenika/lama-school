@@ -61,6 +61,5 @@ const events = [
       start: new Date(2025, 0, 6, 15, 30, 0),
       end: new Date(2025, 0, 6, 16, 15, 0),
     },
-    // Add additional days (Tuesday - Friday) similarly...
   ];
 export default events
